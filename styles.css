@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: url(./plano-de-fundo-de-programacao-com-pessoa-trabalhando-com-codigos-no-computador.jpg);
+    background-size: cover;
+    
+}
+
+.header {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(23, 75, 152, 0.25); 
+    border-radius: 5px;
+    color: white;
+}
+
+.profile-picture img {
+    width: 130px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.header-name h1 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.header-name p {
+    font-size: 20px;
+}
+
+.info {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+.info-block {
+    background: white;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    
+    
+    
+}
+
+.info-block h2 {
+    margin-bottom: 10px;
+    color: #49839b;
+    display: flex;
+    justify-content: center;
+}
+
+.info-block p,
+.info-block ul , a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    
+}
+
+.info-block a{
+    color: blue;
+    cursor: pointer;
+}
+
+.info-block ul {
+    list-style: disc;
+}
+
+
+
+
+.info-block:hover {
+    box-shadow: 0 0 20px rgba(73, 131, 155, 0.5);
+    transition: 1s;
+    
+}
