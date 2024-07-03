@@ -14,10 +14,13 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background: url(./plano-de-fundo-de-programacao-com-pessoa-trabalhando-com-codigos-no-computador.jpg);
+    background: url(./plano.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     
 }
+
+
 
 .header {
     width: 800px;
@@ -60,6 +63,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Roboto", sans-serif;
+    transition: 1s;
     
     
     
@@ -100,5 +104,30 @@ body {
 .info-block:hover {
     box-shadow: 0 0 20px rgba(73, 131, 155, 0.5);
     transition: 1s;
+    transform: scale(1.03);
     
+}
+
+
+.button{
+    display: flex;
+    justify-content: center;
+    font-size: 20px; 
+}
+
+.button a{
+    border: 1px solid rgba(23, 75, 152, 0.25) ;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(23, 75, 152, 0.25) ;
+    cursor: pointer;
+    color: white;
+    transition: 1s;
+}
+
+.button a:hover{
+    color: darkblue;
+    transition: 1s;
+    letter-spacing: 1px;
+    background-color: white;
 }
